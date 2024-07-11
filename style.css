@@ -9,7 +9,24 @@ h1{
 	background-color: black;
 	color: white;
 	padding: 20px;
+	height: 40px;
+	width: 100%;
 }
+
+h2{
+	text-align: left;
+	color: black;
+	padding: 5px;
+	height: 40px;
+	width: 100%;
+}
+
+p{
+	text-align: left;
+	color: black;
+	size: 1px;
+}
+
 nav ul{
 	background-color: #757575;
 	width: 100%;
@@ -36,7 +53,7 @@ img{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	object-fit: cover;
+	object-fit: fill;
 }
 
 .contenido{
@@ -57,14 +74,15 @@ img{
 
 .menu-secundario{
 	width: 20%;
-	margin-top: 60px;
+	margin-top: 70px;
 }
 
 .menu-secundario a{
 	display: block;
-	text-align: center;
+	text-align: right;
 	color: black;
 	margin-bottom: 20px;
+	padding: 2px;
 }
 
 footer{
@@ -78,4 +96,5 @@ footer{
 footer p{
 	text-align: center;
 	padding: 50px;
+	color: white;
 }
