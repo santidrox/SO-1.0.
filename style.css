@@ -9,7 +9,23 @@ h1{
 	background-color: black;
 	color: white;
 	padding: 20px;
+	height: 40px;
+	width: 100%;
 }
+
+h2{
+	text-align: left;
+	color: black;
+	padding: 5px;
+	height: 40px;
+	width: 100%;
+}
+
+p{
+	text-align: left;
+	color: black;
+}
+
 nav ul{
 	background-color: #757575;
 	width: 100%;
@@ -62,9 +78,10 @@ img{
 
 .menu-secundario a{
 	display: block;
-	text-align: center;
+	text-align: right;
 	color: black;
 	margin-bottom: 20px;
+	padding: 2px;
 }
 
 footer{
@@ -78,4 +95,5 @@ footer{
 footer p{
 	text-align: center;
 	padding: 50px;
+	color: white;
 }
